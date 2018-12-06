@@ -136,6 +136,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /mnt/vendor/persist:/persist
 
 TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_PRODUCT := system/product
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
