@@ -59,3 +59,6 @@ setprop ro.vendor.ril.mbn_copy_completed 1
 
 #set default loglevel to KERN_WARNING
 echo "4 4 1 4" > /proc/sys/kernel/printk
+
+# Remove settings cache, avoids derps after dirty flash
+rm -rf /data/system/package_cache
