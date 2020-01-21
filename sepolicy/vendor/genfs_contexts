@@ -1,0 +1,3 @@
+# Power
+genfscon debugfs /system_stats                                  u:object_r:debugfs_rpm:s0
+genfscon sysfs /devices/soc/soc:qcom,cpubw                      u:object_r:sysfs_devfreq:s0

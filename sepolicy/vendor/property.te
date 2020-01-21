@@ -10,3 +10,6 @@ type thermal_prop, property_type;
 type vendor_camera_prop, property_type;
 
 type wifi_active_prop, property_type;
+
+# Power
+type power_prop, property_type;
