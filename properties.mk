@@ -170,7 +170,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_phase_offset_ns=1500000 \
     debug.sf.enable_gl_backpressure=1 \
     debug.cpurend.vsync=false \
-    debug.hwui.use_buffer_age=false \
     persist.debug.wfd.enable=1 \
     persist.hwc.enable_vds=1 \
     ro.opengles.version=196610 \
@@ -325,7 +324,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc=0 \
     debug.sf.gpu_comp_tiling=1 \
     debug.sf.recomputecrop=0 \
-    persist.hwc.ptor.enable=true
+    debug.hwui.use_buffer_age=false \
+    persist.hwc.ptor.enable=true \
+    vendor.display.disable_partial_split=1 \
+    vendor.display.perf_hint_window=50
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
