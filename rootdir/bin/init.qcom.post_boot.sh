@@ -2744,9 +2744,6 @@ case "$target" in
             # enable LPM
             echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
 
-            # Start cdsprpcd only for sdm660 and disable for sdm630
-            start vendor.cdsprpcd
-
             # Start Host based Touch processing
                 case "$hw_platform" in
                         "MTP" | "Surf" | "RCM" | "QRD" )
