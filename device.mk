@@ -405,6 +405,10 @@ PRODUCT_PACKAGES += \
     libcamera_sdm660_shim \
     libshim_dpmframework
 
+# Signapk
+PRODUCT_HOST_PACKAGES += \
+    signapk
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
