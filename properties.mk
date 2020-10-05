@@ -1,6 +1,3 @@
-#Build FP to be picked by both system and vendor
-BUILD_FINGERPRINT := "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys"
-
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.boot-dex2oat-threads=8 \
@@ -102,13 +99,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.vbat.enable=true \
     vendor.audio.feature.wsa.enable=false
 
-ifneq ($(filter jason,$(TARGET_DEVICE)),)
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.audio.feature.spkr_prot.enable=false
-else
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.spkr_prot.enable=true
-endif
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -134,8 +126,36 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.HAL3.enabled=1 \
     persist.vendor.camera.eis.enable=1 \
     persist.vendor.camera.exif.make=Xiaomi \
+    persist.vendor.camera.HAL3.enabled=1 \
+    persist.vendor.camera.awb.sync=2 \
+    persist.vendor.camera.depth.focus.cb=0 \
+    persist.vendor.camera.exif.make=Xiaomi \
+    persist.vendor.camera.exif.model=Redmi Note 5 \
+    persist.vendor.camera.expose.aux=1 \
+    persist.vendor.camera.fdvideo=1 \
+    persist.vendor.camera.imglib.usefdlite=1 \
+    persist.vendor.camera.isp.clock.optmz=0 \
+    persist.vendor.camera.isp.turbo=1 \
+    persist.vendor.camera.linkpreview=0 \
+    persist.vendor.camera.ltm.overlap=13 \
+    persist.vendor.camera.preview.ubwc=0 \
+    persist.vendor.camera.stats.test=5 \
+    persist.vendor.flash.light.lux=340 \
+    persist.vendor.flash.low.lux=390 \
+    persist.vendor.imx376_ofilm.light.lux=280 \
+    persist.vendor.imx376_ofilm.low.lux=310 \
+    persist.vendor.imx376_sunny.light.lux=280 \
+    persist.vendor.imx376_sunny.low.lux=310 \
+    persist.vendor.ov13855_sunny.light.lux=370 \
+    persist.vendor.ov13855_sunny.low.lux=385 \
+    persist.vendor.s5k3l8_ofilm.light.lux=367 \
+    persist.vendor.s5k3l8_ofilm.low.lux=379
+
+PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.privapp.list=org.codeaurora.snapcam \
-    vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera,com.discord
+    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android \
+    vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera,com.discord \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.faceunlock,com.android.camera
 
 # Codec2 switch
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -158,6 +178,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.enable_vds=1 \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0 \
+    ro.sf.lcd_density=440 \
     vendor.display.disable_skip_validate=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.video.disable.ubwc=1 \
@@ -270,6 +291,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.add_power_save=1 \
     persist.radio.VT_CAM_INTERFACE=2 \
     persist.radio.data_con_rprt=1 \
+    persist.radio.multisim.config=dsds \
     persist.vendor.data.mode=concurrent \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
@@ -279,6 +301,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.radio.procedure_bytes=SKIP \
+    persist.vendor.iwlan.enable=true \
+    persist.vendor.radio.data_con_rprt=1 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.telephony.default_network=9,9 \
     ro.telephony.iwlan_operation_mode=legacy \
