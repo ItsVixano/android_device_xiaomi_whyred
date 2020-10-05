@@ -179,10 +179,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.9 \
     vendor.display.config@1.9_vendor
 
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -289,7 +285,6 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     init.device.rc \
-    init.xiaomi_parts.rc \
     init.performance.sdm660.rc \
     ueventd.qcom.rc
 
@@ -588,6 +583,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# XiaomiParts
-PRODUCT_PACKAGES += \
-   XiaomiParts
