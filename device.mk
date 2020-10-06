@@ -179,12 +179,9 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    gralloc.sdm660 \
-    hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
     libtinyxml \
-    libqdMetaData \
     libqdMetaData.system
 
 PRODUCT_PACKAGES += \
