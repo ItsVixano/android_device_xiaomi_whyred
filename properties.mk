@@ -216,3 +216,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WFD
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.debug.wfd.enable=0
+
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.vendor.shutdown.waittime=500
