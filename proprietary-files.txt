@@ -1,45 +1,45 @@
-# ADSP
-vendor/bin/adsprpcd
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsp_hvx_callback_skel.so
-vendor/lib/libadsp_hvx_stub.so
-vendor/lib/libadsprpc.so
-vendor/lib/libfastcvadsp_stub.so
-vendor/lib/libfastcvopt.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libsdsprpc.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libfastcvadsp_stub.so
-vendor/lib64/libfastcvopt.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
+# ADSP - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/bin/adsprpcd|8b439846f016decb7519e5fd5cb2c86e192af036
+vendor/lib/libadsprpc.so|2bf3f0db0f5475c39e266536bc2ae45cd15e8aec
+vendor/lib/libadsp_default_listener.so|ca63c1b2c34bbde74c2b1fc6009ca244a1ffa535
+vendor/lib/libadsp_hvx_callback_skel.so|dc7080c68699f69f76260891ebcedcd68a093d40
+vendor/lib/libadsp_hvx_stub.so|4fa14ca235ace82551549b571f767f475fbf4b67
+vendor/lib/libfastcvadsp_stub.so|7811d12d68ec3f9fcbd05f55264b6dcec61bc75b
+vendor/lib/libfastcvopt.so|d76563220d8d504a9dce1091a52482a8d932858d
+vendor/lib/libmdsprpc.so|2f2c2f367bb55e0ba03b43172c75cad14962c7b0
+vendor/lib/libsdsprpc.so|f5193d47682768b1aee6cca02fa8e8539336a953
+vendor/lib64/libadsprpc.so|7410dc478bae67712f687c1962e10473f33ad3ed
+vendor/lib64/libadsp_default_listener.so|d28ea3a0509c13ff75c700efe1107bb2d2481eb6
+vendor/lib64/libfastcvadsp_stub.so|0cbdc83819780d8aa7cb8707633439db330b655d
+vendor/lib64/libfastcvopt.so|39423b9830f4eee217d9a4064a0c7449ff78acfb
+vendor/lib64/libmdsprpc.so|e951d4f5ad97dc6439a2b128cf1baca7229e8ecf
+vendor/lib64/libsdsprpc.so|c3cd82ec590c80e254235d79e05a0b63feae7eaa
 
-# ADSP modules
-vendor/etc/scve/facereco/gModel.dat
-vendor/lib/rfsa/adsp/dirac_resource.dar
-vendor/lib/rfsa/adsp/libadsp_fd_skel.so
-vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so
-vendor/lib/rfsa/adsp/libadsp_hvx_skel.so
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libdirac-capiv2.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
-vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/rfsa/adsp/libvpp_svc_skel.so
+# ADSP modules - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/etc/scve/facereco/gModel.dat|447e5e3fefe8bcf36db0f7a8595c63fb326879ba
+vendor/lib/rfsa/adsp/dirac_resource.dar|2861e68eef045338478a9aa443cfa660ab78d40a
+vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
+vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|26fb64a92d48e801a31a867976d325efa366a255
+vendor/lib/rfsa/adsp/libadsp_hvx_skel.so|05776246445316aea822eaa9cb6ae7a47b23c9aa
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|fd362c6b0e30f62cc3fc4566855f46706d2c3c50
+vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
+vendor/lib/rfsa/adsp/libdspCV_skel.so|a788855fe98d5f6ea73d2693c983efb29165eae1
+vendor/lib/rfsa/adsp/libfastcvadsp.so|603711dc1af1f1952d8978a5b494b1541b24c54c
+vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|a06a3f52e89d219d2da0c7205e714cd7429b267c
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|99752b14bc669589f598b2c555af96834147e41e
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e6d99fd3c398620c
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|487f830aca26c85ef79c8b599b2f03668ab732b5
+vendor/lib/rfsa/adsp/libvpp_svc_skel.so|2da97f61c1d14f1f9a38aecd8ab89a1f6fa8d991
 
-# ADSP (scve)
-lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
-lib/vendor.qti.hardware.scve.objecttracker@1.0.so
-lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
-lib/vendor.qti.hardware.scve.panorama@1.0.so
-lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
-lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
-lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
-lib64/vendor.qti.hardware.scve.panorama@1.0.so
+# ADSP (scve) - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|7766e3a3f639f004a67b0dfe1b6a2b3818860375
+lib/vendor.qti.hardware.scve.objecttracker@1.0.so|d32ef848d47967d4897222c922692fe34cad48bc
+lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|87e9a94f2b280671ebcd51547f101cce9cab316c
+lib/vendor.qti.hardware.scve.panorama@1.0.so|e71acf5d224ad26a31c944cd575dfcfdeab6829c
+lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so|ae72f8489d9f3f05cbe0ec23df139cabbf0eb5e6
+lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|3d3b7b827ac74ab52f910c6b7b683a7e390078fd
+lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|714cfc1c99a274f1a301fb83ace08a96cfbc4c75
+lib64/vendor.qti.hardware.scve.panorama@1.0.so|74bd66febac5462784dd9e3173e94e7c22783b50
 
 # Alarm - from LA.UM.8.2.r1-06200-sdm660.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|c214e1f7de878aeebe642857d6283bbeca0c7a3e
@@ -87,16 +87,16 @@ vendor/lib64/libaudioparsers.so|ab849844b97f005231b1b3150e61cd4b67cbdb11
 vendor/lib64/libqtigef.so|14823ccfd03373f7f4ab1bd3705539aa1e2b7ade
 vendor/lib64/soundfx/libasphere.so|bd48aa3d7cf27bf3b12ce29f429b719383e104fc
 
-# Audio ACDB
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
+# Audio ACDB - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|d4390070b4c5686b85920306ed5c00913b28f2ab
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|0571a311c4d2191763b35cddb3603d36beee904d
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|82f6d9ef76082a60a4fbdf0d3f21265103df4787
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|641f52b9089cb2d42977d814dea93a745031a1c2
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|e234b572d1833fe43b69889f799bf06b5f7e3e06
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|612fc90abf9493e49df16565dae49722355123b4
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|23ed6d62794e5d141ca41d01e68600f0f7015054
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|785c58dbf6b695ca8f1a795f5ac1ed7cb495fa2f
+vendor/etc/acdbdata/adsp_avs_config.acdb|d9507f31b8970320233128fed24c39742ee53c67
 
 # Bluetooth - from LA.UM.8.2.r1-06300-sdm660.0
 lib/libbtconfigstore.so|41f93ccc62e371c4d9c549b27d0257262a1d506b
@@ -755,8 +755,8 @@ vendor/lib/libmmcamera_whyred_s5k5e8_ofilm_i_eeprom.so
 vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii.so
 vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii_eeprom.so
 
-# Charger - from LA.UM.8.2.r1-06200-sdm660.0
-vendor/bin/hvdcp_opti|8473b304aa2300c425e090da6688c1c124305b97
+# Charger - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/bin/hvdcp_opti|9d0efda6f5cc8a03295690368ae823117a453d35
 
 # CNE - from LA.UM.8.2.r1-06300-sdm660.0
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
@@ -819,15 +819,15 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|c0cc6212b3c0dbe51544c012dc21971caea13466
 vendor/lib64/vendor.qti.latency@2.0.so|fe4691e922ec926bd723ac79e6a11ba1d75db75a
 
-# Consumerir
-vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.sdm660.so
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
+# Consumerir - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.sdm660.so|f927b0ca8f81b78daa098872b27f599dd5a54141
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so|ad5c1c43bd7af8828efa20b7435f756d85a813b5
 
-# Display calibration
-vendor/etc/qdcm_calib_data_huaxing_nt36672_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml
+# Display calibration - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/etc/qdcm_calib_data_huaxing_nt36672_fhd_video_mode_dsi_panel.xml|5ccd31bcd66dceff55fd64b20857d4f625554f58
+vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml|698758aab688bbd119b5e355260bab682be22d15
+vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml|0792a2e24fe4ed483fdd77e41f51b07888667db2
+vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml|3f3eec6b3ab88c98a67bd755ef504d58893b9828
 
 # DPM - from LA.UM.8.2.r1-06300-sdm660.0
 product/bin/dpmd|90cdd79b564456cef2a0c011afab3896463df5e4
@@ -923,20 +923,20 @@ vendor/firmware/fpctzappfingerprint.b06|8b2ba9380050139fcb54d45c1978e54c080e6e2c
 vendor/firmware/fpctzappfingerprint.b07|cb22bc47816a9c456fda2fdbd24486ea925fda42
 vendor/firmware/fpctzappfingerprint.mdt|f709249da0d08cdcf43f561782ac3d6695a154ec
 
-# Fingerprint sensor
--vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
-vendor/etc/permissions/com.fingerprints.extension.xml
-vendor/framework/com.fingerprints.extension.jar
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
-vendor/lib64/hw/fingerprint.fpc.default.so
-vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+# Fingerprint sensor - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+-vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|9aa63e30e79364e296061a69a77c8c6e00ea89d4
+vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
+vendor/framework/com.fingerprints.extension.jar|92c84a6f1ecc47be4a1e447fa057dc732a3e9579
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|d7724df4ba176e3be1adb208119dba50d6453a94
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so|c0ab63d7fffe9829462716e7d30ce322bae921de
+vendor/lib64/hw/fingerprint.fpc.default.so|987534d26e67c23f8d875e056386e91522b4d192
+vendor/lib64/hw/fingerprint.goodix.default.so|30a459e4ff9c047d1cc6a130885460cc07426826
+vendor/lib64/com.fingerprints.extension@1.0.so|3071f86486e0de18f0b14cf4b9beb49978335e4b
+vendor/lib64/libgf_ca.so|b7635dcbea9a7e7252e746914f995a5ffb92b5d0
+vendor/lib64/libgf_hal.so|d601b957f58e840d2ff5a69f7fda74aca93805b2
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ac7f5d1a9cfc04926cde4fb475d074331ba8dbf5
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|b47f3d59c111a97a47ed38d4cb05ddf59a47ebac
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|69ae7b2e6ce22e23f70caa20c340e99510409b57
 
 # FM - from LA.UM.8.2.r1-06300-sdm660.0
 -product/lib/vendor.qti.hardware.fm@1.0.so|8e13cca2be4c4f9812d656e4cb15bd524fdfdf12
@@ -951,9 +951,9 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|050028acbd85b6dfd71b0c5f73c0a3198625efa
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|942c4a88be55eb62fab614a08b64676972de2d89
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|9c1b952043c7722fd27bfd971ecebb2584671862
 
-# Gatekeeper
-vendor/lib/hw/gatekeeper.sdm660.so
-vendor/lib64/hw/gatekeeper.sdm660.so
+# Gatekeeper - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae
+vendor/lib64/hw/gatekeeper.sdm660.so|e8f32651e4bfff88fcc02c34eca6cd5f04a444aa
 
 # GPS - from jasmine-user 10 QKQ1.190910.002 V11.0.6.0.QDIMIXM release-keys
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|108fa375ea1f0fd62aa5302da75f971a562a1f79
@@ -1034,16 +1034,16 @@ vendor/lib64/vendor.qti.gnss@2.1.so|a395bb7d4df874c0e0efadf8ef51d3510afedad3
 vendor/lib64/vendor.qti.gnss@3.0-service.so|947bfafbf110d70656f434ab5845b6691b6b61c1
 vendor/lib64/vendor.qti.gnss@3.0.so|ff1733d10abd97fa4381c798ae74b4cc5dac39e8
 
-# GPU firmware
-vendor/firmware/a512_zap.b00
-vendor/firmware/a512_zap.b01
-vendor/firmware/a512_zap.b02
-vendor/firmware/a512_zap.elf
-vendor/firmware/a512_zap.mdt
-vendor/firmware/a530_gpmu.fw2
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
-vendor/firmware/a540_gpmu.fw2
+# GPU firmware - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/firmware/a512_zap.b00|85a7fc0008f9a2071d8b3d0cc212b19141633267
+vendor/firmware/a512_zap.b01|e0b7818182fac232182bfb70a4f43ec3e36779b9
+vendor/firmware/a512_zap.b02|33cc074ca840ae59f310a0e217aa7409afb30ac2
+vendor/firmware/a512_zap.elf|5dd4278559e9276f641bb121d7577d1a3ca3fcbb
+vendor/firmware/a512_zap.mdt|cc149dda6e109dd3f1f92e74349665a8c521ff79
+vendor/firmware/a530_gpmu.fw2|706da8d5ee565dcf456341f805ee75a40773f65a
+vendor/firmware/a530_pfp.fw|c19e1905c15622d7bb02409e6748959bceda9b08
+vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
+vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
 # Graphics - from LA.UM.8.2.r1-06300-sdm660.0
 vendor/lib/egl/eglSubDriverAndroid.so|c6c5e68ce670aeab637d29cfd3f7dba45e05e76c
@@ -1126,9 +1126,9 @@ vendor/lib64/libqti-iopd-client.so|64dcd6acbc758ca4ba7eea3ae351c005e92e95d5
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|8ccdc1463dcb554297b0c96d768126f0ca42b83a
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|d5bafc1daeb1b417bbad1160f92e330610f09b8a
 
-# Keystore
-vendor/lib/hw/keystore.sdm660.so
-vendor/lib64/hw/keystore.sdm660.so
+# Keystore - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
+vendor/lib64/hw/keystore.sdm660.so|ffd01591bd8a864cb2dbc6fd2c01fbd36ae54051
 
 # Listen - from jasmine-user 10 QKQ1.190910.002 V11.0.6.0.QDIMIXM release-keys
 vendor/lib/hw/sound_trigger.primary.sdm660.so|8bae35ddf095f33543413bec940f538a7fada63b
@@ -1183,13 +1183,13 @@ vendor/lib64/libOmxG711Dec.so|0a94e28f0b70e2bd8924f5aecc926ccb4a8a49e9
 vendor/lib64/libOmxQcelp13Dec.so|d8bb8a5c999a2f2e3a7e717d422ab43c90ab9028
 vendor/lib64/libOmxWmaDec.so|8f8ef46403b739859f97f1fe54dff8c30b57cebb
 
-# Mlipay
-vendor/bin/mlipayd@1.1
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-vendor/lib64/libmlipay@1.1.so
-vendor/lib64/libmlipay.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
+# Mlipay - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/bin/mlipayd@1.1|4c30cfd1b32f99ff3043eadca8e7a4b7b9a00c79
+vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
+vendor/lib64/libmlipay@1.1.so|dd86e9f1d1a90dd8b3b48447130602a5050a52b8
+vendor/lib64/libmlipay.so|9d3b596d1b733347068756baea79f5ffec7a6e4b
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|2c05d2902c757410aec30c6a5d0bf77b016583fa
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|0c4bb0c8ba1cbf357bb0b5117e93db0382ffcf49
 
 # Perf - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/energy-awareness|d30082c491a02582ee281fe7fe9e71eba9708858
@@ -1393,38 +1393,38 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so|45fd8c212f51977663082b496755911c986
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|1673fd7b807dcc317cc73c82c2773d5bbb0302df
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
 
-# Sensors
-vendor/bin/sensors.qti
-vendor/etc/sensors/sensor_def_qcomdev.conf
-vendor/lib/hw/activity_recognition.sdm660.so
-vendor/lib/libsensor_reg.so
-vendor/lib/libsensor1.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.sdm660.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor1.so
-vendor/lib64/sensors.ssc.so
+# Sensors - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/bin/sensors.qti|2881b6a0715dada18a1c9e3d6bc9235e11560509
+vendor/etc/sensors/sensor_def_qcomdev.conf|33214fd4ac19fc6ba500017095b205251573abea
+vendor/lib/hw/activity_recognition.sdm660.so|0cf779e96b59943bdd5e356951d45a0d56b055e5
+vendor/lib/libsensor_reg.so|3f56d84159e9902587045718b2c81dfa9cb83eda
+vendor/lib/libsensor1.so|1bfdb62e16c58925db14bb9a7781be2765c81f10
+vendor/lib/sensors.ssc.so|3edc0a2b2909a417447199eede59e54b9260460c
+vendor/lib64/hw/activity_recognition.sdm660.so|c2be9a4f748790aec40299357eb0e8ff76911fcb
+vendor/lib64/libsensor_reg.so|44d18d77afcb0442fbf252dd6821ac820a4ed454
+vendor/lib64/libsensor1.so|fa53367c1ad9934d9d9b7535221231743eda9e93
+vendor/lib64/sensors.ssc.so|3e76535b76c9b144567cba5f8060daf6b9e39427
 
-# Soter
--app/SoterService/SoterService.apk
-framework/vendor.qti.hardware.soter-V1.0-java.jar
-lib64/vendor.qti.hardware.soter@1.0.so
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
-vendor/lib64/vendor.qti.hardware.soter@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+# Soter - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+-app/SoterService/SoterService.apk|d7295922fd5e8568031e043874d052b220753cf5
+framework/vendor.qti.hardware.soter-V1.0-java.jar|070ab0259af4de07ca1f9b631cadf88bdb922e5f
+lib64/vendor.qti.hardware.soter@1.0.so|3cac6f020bb43c4d411afcc0669e45d89ec80400
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|b7153aca501c7cf46607a2f602e4054578d80a97
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|357d0154d9d16b3c618b368f14e7efa05e3b4064
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|6339cd6fafe713a8ec0e86c8dae4f4b0a186d458
 
-# Thermal
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine-sgame.conf
-vendor/bin/thermal-engine
-vendor/lib/libthermalfeature.so
-vendor/lib64/libthermalfeature.so
-vendor/lib64/libthermalioctl.so
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+# Thermal - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/etc/thermal-engine-map.conf|19c9ec67a63568470061413e47d420321040ef2a
+vendor/etc/thermal-engine-normal.conf|e53ffed6a0b047f89e3b12559e4044a9c28f0dec
+vendor/etc/thermal-engine-sgame.conf|3bf61d3d7e308e8fb6deacb250582650f48c3e20
+vendor/bin/thermal-engine|e30b95b87cbd30b3e02bd857ae7b720ec4bbbe26
+vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
+vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
+vendor/lib64/libthermalioctl.so|fbbd487d7f5e72558607d371f6eb327a7687f644
+-vendor/lib/libthermalclient.so|4579096edb376b06827f8e90a49480cf121030f0
+-vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
 
 # Time services - from LA.UM.8.2.r1-06300-sdm660.0
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
