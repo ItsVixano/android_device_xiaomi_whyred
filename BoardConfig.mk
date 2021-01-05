@@ -170,9 +170,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 # IPA
 USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 
-# Power
-TARGET_USES_INTERACTION_BOOST := true
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
 
