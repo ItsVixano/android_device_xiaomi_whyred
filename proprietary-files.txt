@@ -1108,24 +1108,6 @@ vendor/lib64/libsdm-color.so|b5e5ec9f5cdad2094891197fd00f8ccdc8340c06
 vendor/lib/hw/vulkan.sdm660.so|333d1cc56934de6fe6f5114d924a3c48f3347ca0
 vendor/lib64/hw/vulkan.sdm660.so|7a9b0ae60ab0eb6d0b896d35b8c47c4531c140b9
 
-# IOP - from jasmine-user 10 QKQ1.190910.002 V11.0.6.0.QDIMIXM release-keys
-lib/libqti-iopd-client_system.so|d91db26d17012f654a222bf325793bdce29e0f1b
-lib/libqti-util_system.so|bd0889d0cab15adf5515d001085588700c98c9aa
-lib64/libqti-iopd-client_system.so|1f65e993f79758b2833df88413029d4af059a2eb
-lib64/libqti-util_system.so|26ba8e8a49e312f481985667a983d56367f73bfb
-product/lib/vendor.qti.hardware.iop@1.0.so|8525c29dde11430973e1f26339c915a52de870e9
-product/lib/vendor.qti.hardware.iop@2.0.so|cecd7cef970d48b0709da4eaa9e6966a083a3ab0
-product/lib64/vendor.qti.hardware.iop@1.0.so|a9d2a6bec613954b422a4f50fee70ec0754be65d
-product/lib64/vendor.qti.hardware.iop@2.0.so|0b657aa0eaedb463ef96df94b31010449c5a34a9
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|f78fd7791961c0ceea03dfae8154207820c61be9
-vendor/lib/libqti-iopd-client.so|ea48eb1e1d1f97ca9d2f53ffe635f9ab1925679c
-vendor/lib/vendor.qti.hardware.iop@1.0.so|8094748d325b8b71ba48ec07f3d8575b42e21754
-vendor/lib/vendor.qti.hardware.iop@2.0.so|e49a76a90d88b630c5f3f9640cb8996c89f1b851
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|071fea53abd0423bf71af128770a83941386468c
-vendor/lib64/libqti-iopd-client.so|64dcd6acbc758ca4ba7eea3ae351c005e92e95d5
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|8ccdc1463dcb554297b0c96d768126f0ca42b83a
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|d5bafc1daeb1b417bbad1160f92e330610f09b8a
-
 # Keystore - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
 vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
 vendor/lib64/hw/keystore.sdm660.so|ffd01591bd8a864cb2dbc6fd2c01fbd36ae54051
