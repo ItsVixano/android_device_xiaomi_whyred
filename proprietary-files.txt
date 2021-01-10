@@ -49,9 +49,9 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|fbf078c47a2a67be329e8390c988255dd578949c
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|f48d221f6678ff39bdb3e667c6e1a0f399c29232
 
-# ANT+ - from LA.UM.8.2.r1-06300-sdm660.0
--lib/libantradio.so|18d0a0dd4b522a3bcc59513323dd7ebaad02f47d
--lib64/libantradio.so|876729add2528a96b538eb5163e9668d1fad0acd
+# ANT+ - from LA.UM.8.2.r1-06700-sdm660.0
+-lib/libantradio.so|523f108cabe6c0a2a52fa4476ada8b65eacdd9a9
+-lib64/libantradio.so|7b4e5ed251fa9e33960b58495f60de55c6739767
 product/lib64/com.qualcomm.qti.ant@1.0.so|1a7bee1627309c8eee55dab22b9f25c2302219ae
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|5ef111c6ecb35b94233ae694d80161e9f61b7cd6
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|203528c568c1c5ce33b35dcb9ee9eb7ecb1de206
@@ -98,19 +98,19 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|23ed6d62794e5d141ca41d01e68600f0f70
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|785c58dbf6b695ca8f1a795f5ac1ed7cb495fa2f
 vendor/etc/acdbdata/adsp_avs_config.acdb|d9507f31b8970320233128fed24c39742ee53c67
 
-# Bluetooth - from LA.UM.8.2.r1-06300-sdm660.0
-lib/libbtconfigstore.so|41f93ccc62e371c4d9c549b27d0257262a1d506b
-lib64/libbtconfigstore.so|88d584d582a8822af6c0f4a6e00446e6dbae06d1
+# Bluetooth - from LA.UM.8.2.r1-06700-sdm660.0
+lib/libbtconfigstore.so|b2765f77529c6bbad6eafc1e8b358ad9ce20d992
+lib64/libbtconfigstore.so|abbfd1a5e773fba69dccb3121861ef3fec2cdab9
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|5acf94f38e47c2ec43c95e132dfe7b5d71ec41c4
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|f742e6ca281c6d43fee20c3403049d6ef77beb49
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|cbf94b0e8de6a10c35d1d2e0d9537cad20b16f80
 vendor/lib/libbt-hidlclient.so|826a5101e2c36d7877bc924b53e22cd00bec6dd6
 vendor/lib/libbtnv.so|a1b994bac9b746f51036fc829310cec4f773c621
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|ce83c30ae3fac708e40392b37142fb2283ae5b93
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|d186d72139e0bfbb05d99125b777547950a454ca
 vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
 vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
 
-# Bluetooth QTI - from LA.UM.8.2.r1-06300-sdm660.0
+# Bluetooth QTI - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71644784c8f73573380004f1c69cf18b1e57964b
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|10bddb86ecd1c7e0b0d49fef80bc4ded29a05ce1
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5d204b6e003932069782774dbae4f5f209848870
