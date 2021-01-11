@@ -41,7 +41,7 @@ lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|3d3b7b827ac74ab52f910c6b7b68
 lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so|714cfc1c99a274f1a301fb83ace08a96cfbc4c75
 lib64/vendor.qti.hardware.scve.panorama@1.0.so|74bd66febac5462784dd9e3173e94e7c22783b50
 
-# Alarm - from LA.UM.8.2.r1-06200-sdm660.0
+# Alarm - from LA.UM.8.2.r1-06700-sdm660.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|c214e1f7de878aeebe642857d6283bbeca0c7a3e
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|09991c52c26538bd8fa46492e7e55a6938ac05ac
 vendor/bin/power_off_alarm|21d09b2c83d227072e11e0f0a594baf2ecca9eed
@@ -1108,7 +1108,7 @@ vendor/lib64/libsdm-color.so|b5e5ec9f5cdad2094891197fd00f8ccdc8340c06
 vendor/lib/hw/vulkan.sdm660.so|7f677363774e3c12613f004922cb7aba9aa3bf7b
 vendor/lib64/hw/vulkan.sdm660.so|7f37b59e75cb1739b74ff9646dc958591cd7fa23
 
-# IRQ balance - from LA.UM.8.2.r1-06200-sdm660.0
+# IRQ balance - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
 
 # Keystore - from whyred-user 9 PKQ1.180904.001 V12.0.2.0.PEIMIXM release-keys
@@ -1393,9 +1393,9 @@ vendor/lib64/libthermalioctl.so|fbbd487d7f5e72558607d371f6eb327a7687f644
 -vendor/lib/libthermalclient.so|4579096edb376b06827f8e90a49480cf121030f0
 -vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
 
-# Time services - from LA.UM.8.2.r1-06300-sdm660.0
+# Time services - from LA.UM.8.2.r1-06700-sdm660.0
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
--vendor/lib/libtime_genoff.so|8fecae7eca45921b4562b416bac494188837fd43
+-vendor/lib/libtime_genoff.so|d3d9308d4a5d736eb442f6e9daab47cdc5bb61c7
 -vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 vendor/bin/time_daemon|a3efd58d57f23d0f8e7cfe8da0d7887b2f3e48e8
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
