@@ -371,6 +371,9 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.radio@1.5 \
+    android.hardware.radio.config@1.2 \
+    android.hardware.radio.deprecated@1.0 \
     android.hardware.secure_element@1.0 \
     rild \
     librmnetctl \
@@ -400,8 +403,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim \
-    libshim_dpmframework
+    libcamera_sdm660_shim
 
 # Tethering
 PRODUCT_PACKAGES += \
