@@ -24,6 +24,9 @@
 
 LOCAL_PATH := device/xiaomi/whyred
 
+# Broken 
+BUILD_BROKEN_DUP_RULES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := whyred
 
