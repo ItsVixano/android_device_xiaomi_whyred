@@ -345,9 +345,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
-# QMI
-PRODUCT_PACKAGES += \
-    libjson
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    telephony-diag \
+    telephony
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
@@ -384,8 +385,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim \
-    libshim_dpmframework
+    libcamera_sdm660_shim
 
 # Signapk
 PRODUCT_HOST_PACKAGES += \
