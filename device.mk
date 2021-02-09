@@ -348,7 +348,8 @@ PRODUCT_COPY_FILES += \
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     telephony-diag \
-    telephony
+    telephony \
+    wfd
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
@@ -432,11 +433,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libaacwrapper \
-    libnl
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+    libaacwrapper
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
