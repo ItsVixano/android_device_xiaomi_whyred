@@ -9,7 +9,6 @@
 set -e
 
 export DEVICE=whyred
-export DEVICE_COMMON=sdm660-common
 export VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -25,32 +24,14 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
-# Initialize the helper for common
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
+# Initialize the helper for device
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
 # Warning headers and guards
-write_headers "jasmine_sprout jason lavender twolip wayne whyred"
+write_headers
 
-# The standard common blobs
-write_makefiles "${MY_DIR}/proprietary-files-qc.txt" true
-
-printf "\n%s\n" "ifeq (\$(BOARD_HAVE_QCOM_FM),true)" >> "${PRODUCTMK}"
-write_makefiles "${MY_DIR}/proprietary-files-fm.txt" true
-echo "endif" >> "${PRODUCTMK}"
+# The standard device blobs
+write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
 # Finish
 write_footers
-
-if [ -s "${MY_DIR}/proprietary-files.txt" ]; then
-    # Reinitialize the helper for device
-    setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false
-
-    # Warning headers and guards
-    write_headers
-
-    # The standard device blobs
-    write_makefiles "${MY_DIR}/proprietary-files.txt" true
-
-    # Finish
-    write_footers
-fi
