@@ -737,7 +737,7 @@ vendor/firmware/cpp_firmware_v1_12_0.fw|c7939d46f9875054c5b30c3280862e7d9df3dcf9
 vendor/lib/libois_bu63165.so|1a101191e3326648d9c517f184e40255154bc993
 vendor/lib/libois_lc898122.so|26304ff7cf07d2782a79e4e743f4ce2e0a1063bf
 
-# Camera watermark - from jasmine V11.0.8.0.QDIMIXM
+# Camera watermark - from jasmine V11.0.21.0.QDIMIXM
 vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
 vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
@@ -1037,7 +1037,7 @@ vendor/lib/libOmxWmaDec.so|469d6be621fab38ece0921c3f08e1638556cef0f
 vendor/lib/libvqzip.so|d037d6e54f6cff1755acb5e1f04a43536bcb8acf
 vendor/lib64/libgpustats.so|b7f9e1ee3f0d86e87d96db55404f3507db8cac6f
 
-# Mlipay - from wayne V11.0.3.0.PDCCNXM
+# Mlipay - from wayne V12.0.1.0.PDCCNXM
 vendor/bin/mlipayd@1.1|4c30cfd1b32f99ff3043eadca8e7a4b7b9a00c79
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
 vendor/lib64/libmlipay.so|c988ff04fcd90621cf46d219bdbc7eef341d1ce6
@@ -1296,7 +1296,7 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
 vendor/lib64/libwvhidl.so|38677623330ec145a62afdef110c713c9492671c
 
-# Wifi - from jasmine V11.0.8.0.QDIMIXM
+# Wifi - from jasmine V11.0.21.0.QDIMIXM
 vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
 
 # WiFi Display - from jasmine V11.0.21.0.QDIMIXM
