@@ -66,13 +66,13 @@ vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
 vendor/lib/soundfx/libqcreverb.so|eb437cd5e264b1adb4546c6a5617c5da17be5839
 vendor/lib/soundfx/libqcvirt.so|ee9eaa81bb24ac0379e06b44ef257967a4d32614
 
-# Audio Power Amplifier - from whyred V11.0.3.0.PEIMIXM
+# Audio Power Amplifier - from whyred V12.0.2.0.PEIMIXM
 vendor/firmware/dbmd4_va_fw.bin|ee640f9f4e367d513f5fb7d95c85e226c9f75750
 vendor/firmware/tas2557_uCDSP.bin|15fca3bdb193f04c827e2f5c4201c8694207595f
 vendor/firmware/tfa98xx.cnt|f8b5291feaebe7e3d18fda5d8960c313656b4a3a
 vendor/firmware/voice_amodel.bin|f0485f84718886ebcba6f2be0eb92f18240b5115
 
-# Audio ACDB - from whyred V11.0.3.0.PEIMIXM
+# Audio ACDB - from whyred V12.0.2.0.PEIMIXM
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|d4390070b4c5686b85920306ed5c00913b28f2ab
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|0571a311c4d2191763b35cddb3603d36beee904d
 vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|82f6d9ef76082a60a4fbdf0d3f21265103df4787
@@ -798,10 +798,10 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|ff7a319e51ddd4de14af28a84f7
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|90f1106f7462a9e01721e1159ed3301579adee07
 vendor/lib64/vendor.qti.latency@2.0.so|91a8b05b20485057ee9f42c55ce70207ef6af761
 
-# Consumerir - from whyred V11.0.3.0.PEIMIXM
+# Consumerir - from whyred V12.0.2.0.PEIMIXM
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so|ad5c1c43bd7af8828efa20b7435f756d85a813b5
 
-# Display calibration - from whyred V11.0.3.0.PEIMIXM
+# Display calibration - from whyred V12.0.2.0.PEIMIXM
 vendor/etc/qdcm_calib_data_huaxing_nt36672_fhd_video_mode_dsi_panel.xml|5ccd31bcd66dceff55fd64b20857d4f625554f58
 vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml|698758aab688bbd119b5e355260bab682be22d15
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml|0792a2e24fe4ed483fdd77e41f51b07888667db2
@@ -843,7 +843,7 @@ vendor/lib64/libSecureUILib.so|3a059d1fe3395eaefeb7817ad3af46987b6f4794
 vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
 vendor/lib64/libStDrvInt.so|a7bd8140e2cd5aa70a7d929e01233e5b71844cd8
 
-# Fingerprint firmware - from whyred V11.0.3.0.PEIMIXM
+# Fingerprint firmware - from whyred V12.0.2.0.PEIMIXM
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00|27461b3d39f9eadfa0c40fbd40c059a3249fabc6
 etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01|719d2059dbfb4e5617011c0ed5457b4a6e25ee78
 etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02|8551e1165f375da6a43626e544d9420781a31de6
@@ -863,7 +863,7 @@ vendor/firmware/fpctzappfingerprint.b06|8b2ba9380050139fcb54d45c1978e54c080e6e2c
 vendor/firmware/fpctzappfingerprint.b07|cb22bc47816a9c456fda2fdbd24486ea925fda42
 vendor/firmware/fpctzappfingerprint.mdt|f709249da0d08cdcf43f561782ac3d6695a154ec
 
-# Fingerprint sensor - from whyred V11.0.3.0.PEIMIXM
+# Fingerprint sensor - from whyred V12.0.2.0.PEIMIXM
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|9aa63e30e79364e296061a69a77c8c6e00ea89d4
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
 vendor/framework/com.fingerprints.extension.jar|92c84a6f1ecc47be4a1e447fa057dc732a3e9579
@@ -911,7 +911,7 @@ vendor/lib64/vendor.qti.gnss@2.1.so|a395bb7d4df874c0e0efadf8ef51d3510afedad3
 vendor/lib64/vendor.qti.gnss@3.0-service.so|947bfafbf110d70656f434ab5845b6691b6b61c1
 vendor/lib64/vendor.qti.gnss@3.0.so|ff1733d10abd97fa4381c798ae74b4cc5dac39e8
 
-# Gatekeeper - from whyred V11.0.3.0.PEIMIXM
+# Gatekeeper - from whyred V12.0.2.0.PEIMIXM
 vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae
 vendor/lib64/hw/gatekeeper.sdm660.so|e8f32651e4bfff88fcc02c34eca6cd5f04a444aa
 
@@ -976,13 +976,13 @@ vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
 
-# Graphics firmware - from whyred V11.0.3.0.PEIMIXM
+# Graphics firmware - from whyred V12.0.2.0.PEIMIXM
 vendor/firmware/a512_zap.b00|85a7fc0008f9a2071d8b3d0cc212b19141633267
 vendor/firmware/a512_zap.b01|e0b7818182fac232182bfb70a4f43ec3e36779b9
 vendor/firmware/a512_zap.b02|33cc074ca840ae59f310a0e217aa7409afb30ac2
 vendor/firmware/a512_zap.elf|5dd4278559e9276f641bb121d7577d1a3ca3fcbb
 vendor/firmware/a512_zap.mdt|cc149dda6e109dd3f1f92e74349665a8c521ff79
-vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
+vendor/firmware/a530_pfp.fw|c19e1905c15622d7bb02409e6748959bceda9b08
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
@@ -994,7 +994,7 @@ vendor/lib64/libkeymasterdeviceutils.so|763a02841eb133e698180e0cacf309450a4ce0e0
 vendor/lib64/libkeymasterprovision.so|f7e215595c2f7e62a6575b23a109b6b18556fc3b
 vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
 
-# Keystore - from whyred V11.0.3.0.PEIMIXM
+# Keystore - from whyred V12.0.2.0.PEIMIXM
 vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
 vendor/lib64/hw/keystore.sdm660.so|ffd01591bd8a864cb2dbc6fd2c01fbd36ae54051
 
@@ -1245,8 +1245,8 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so|fdc13f23a021c98bd8f8ebb1169b2b5841f
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|0fb9dae5a902c89fc0467c7215772f837408cdcd
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|7b227f1a007619dcae8d541eabe99eb5581d226d
 
-# Sensors - from whyred V11.0.3.0.PEIMIXM
-vendor/bin/sensors.qti|4b8f55c7fc909f829dd7806fb0d2873b39330222
+# Sensors - from whyred V12.0.2.0.PEIMIXM
+vendor/bin/sensors.qti|2881b6a0715dada18a1c9e3d6bc9235e11560509
 vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
 vendor/etc/sensors/sensor_def_qcomdev.conf|33214fd4ac19fc6ba500017095b205251573abea
 vendor/lib/hw/activity_recognition.sdm660.so|0cf779e96b59943bdd5e356951d45a0d56b055e5
@@ -1269,7 +1269,7 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|9cf774301dfb59173cc2a6871ff851ea6b546f39
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|5815859dc07d3181901596d06612b379e86fe6fd
 
-# Thermal - from whyred V11.0.3.0.PEIMIXM
+# Thermal - from whyred V12.0.2.0.PEIMIXM
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 vendor/etc/thermal-engine-map.conf|19c9ec67a63568470061413e47d420321040ef2a
 vendor/etc/thermal-engine-normal.conf|e53ffed6a0b047f89e3b12559e4044a9c28f0dec
