@@ -1,6 +1,32 @@
 [
-  {
-    "repository": "android_kernel_xiaomi_sdm660",
-    "target_path": "kernel/xiaomi/sdm660"
-  }
+   {
+      "repository":"ItsVixano/android_vendor_xiaomi_whyred",
+      "target_path":"vendor/xiaomi/whyred",
+      "branch":"eleven",
+      "remote":"github"
+   },
+   {
+      "repository":"SreekanthPalakurthi/kranul",
+      "target_path":"kernel/xiaomi/whyred",
+      "branch":"eas",
+      "remote":"github"
+   },
+   {
+      "repository":"LineageOS/android_hardware_qcom_display",
+      "target_path":"hardware/qcom-caf/msm8998/display",
+      "branch":"lineage-18.1-caf-msm8998",
+      "remote":"github"
+   },
+   {
+      "repository":"LineageOS/android_hardware_qcom_media",
+      "target_path":"hardware/qcom-caf/msm8998/media",
+      "branch":"lineage-18.1-caf-msm8998",
+      "remote":"github"
+   },
+   {
+      "repository":"LineageOS/android_hardware_qcom_audio",
+      "target_path":"hardware/qcom-caf/msm8998/audio",
+      "branch":"lineage-18.1-caf-msm8998",
+      "remote":"github"
+   }
 ]
