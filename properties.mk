@@ -120,9 +120,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.video.disable.ubwc=1 \
     vidc.enc.dcvs.extra-buff-count=2
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.faceunlock,com.android.camera
-
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.disable_init_blank=true \
