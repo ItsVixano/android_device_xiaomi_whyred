@@ -24,6 +24,9 @@
 
 LOCAL_PATH := device/xiaomi/whyred
 
+# Broken 
+BUILD_BROKEN_DUP_RULES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := whyred
 
@@ -60,8 +63,10 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
-TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := whyred-oldcam_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_KERNEL_VERSION := 4.4
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
@@ -146,7 +151,7 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(LOCAL_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(LOCAL_PATH)/sepolicy/private
