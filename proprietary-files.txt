@@ -1,4 +1,4 @@
-# ADSP - from jasmine V11.0.22.0.QDIMIXM
+# ADSP - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
 vendor/bin/cdsprpcd|c9fc5873c205e1ebb844d18bc10f89dd428a01ee
 vendor/lib/libadsp_default_listener.so|85bdbaf59256e3a01e3d1bf1f5ac753eea4f935b
@@ -22,7 +22,7 @@ vendor/lib64/libmdsprpc.so|7aca0cc4524687c48df9e2247a6c59d0be9581bc
 vendor/lib64/libsdsprpc.so|9c3ac49b1a3c7d383c64f7fb554b1c00e2963527
 vendor/lib64/libsysmon_cdsp_skel.so|a76815923b46dbc41ba1a6b0f4942b8da8e52ce0
 
-# ADSP modules - from jasmine V11.0.22.0.QDIMIXM
+# ADSP modules - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/rfsa/adsp/dirac_resource.dar|7728d5b2ee2927a01df5bd6d7edae3736186c844
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|26fb64a92d48e801a31a867976d325efa366a255
@@ -39,21 +39,21 @@ vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|99752b14bc669589f598b2c555af9
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e6d99fd3c398620c
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|487f830aca26c85ef79c8b599b2f03668ab732b5
 
-# Alarm - from jasmine V11.0.22.0.QDIMIXM
+# Alarm - from jasmine V11.0.26.0.QDIMIXM
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|46387fe02067df3c4c09ec49fff7737473ea1145
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|faccc2a7d94d486c2f61a5fe85f5c4598b4147a7
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|1e2631850cc97dfedbde50a9d0d55c8d14881b44
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|271f85f1c6dc0c65dc3aa9a8603f3910fa50e1ea
 
-# ANT+ - from jasmine V11.0.22.0.QDIMIXM
+# ANT+ - from jasmine V11.0.26.0.QDIMIXM
 -lib/libantradio.so:system_ext/lib/libantradio.so|37c36369eeab19d5e6266d9d25ae0de9bb59502d
 product/lib64/com.qualcomm.qti.ant@1.0.so:system_ext/lib64/com.qualcomm.qti.ant@1.0.so|f40868ad57012f1a512b14c889bc8380652cc50f
 -lib64/libantradio.so:system_ext/lib64/libantradio.so|43f6105678c082216f1606d8dd43fa1b0b753d7e
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|181a8ab9b1d40705d3151821b53732c5566a2848
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|aa08f9ec51392ed841f60ad08b7f083312c8c5ee
 
-# Audio - from jasmine V11.0.22.0.QDIMIXM
+# Audio - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/libacdb-fts.so|7e542fe676bdeaf0347dada88683a67cb861d96d
 vendor/lib/libacdbloader.so|ce2494e403e79552793d65f344ce9f79b52ba51a
 vendor/lib/libacdbrtac.so|bacaa968f7da0ed014e6594b928823f0d08a06e6
@@ -83,7 +83,7 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|23ed6d62794e5d141ca41d01e68600f0f70
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|785c58dbf6b695ca8f1a795f5ac1ed7cb495fa2f
 vendor/etc/acdbdata/adsp_avs_config.acdb|d9507f31b8970320233128fed24c39742ee53c67
 
-# Bluetooth - from jasmine V11.0.22.0.QDIMIXM
+# Bluetooth - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|7c0d54f84dd3d2da1806affa7c16dea4bba4d16a
@@ -710,14 +710,14 @@ vendor/firmware/cpp_firmware_v1_12_0.fw|c7939d46f9875054c5b30c3280862e7d9df3dcf9
 vendor/lib/libois_bu63165.so|1a101191e3326648d9c517f184e40255154bc993
 vendor/lib/libois_lc898122.so|26304ff7cf07d2782a79e4e743f4ce2e0a1063bf
 
-# Camera watermark - from jasmine V11.0.22.0.QDIMIXM
+# Camera watermark - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
 vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
-# Charger - from jasmine V11.0.22.0.QDIMIXM
+# Charger - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/hvdcp_opti|120837d6d44abfd86515731dd26183be9cdd5596
 
-# CNE - from jasmine V11.0.22.0.QDIMIXM
+# CNE - from jasmine V11.0.26.0.QDIMIXM
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
 etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
 etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
@@ -780,7 +780,7 @@ vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml|698758aa
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml|0792a2e24fe4ed483fdd77e41f51b07888667db2
 vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml|3f3eec6b3ab88c98a67bd755ef504d58893b9828
 
-# DPM - from jasmine V11.0.22.0.QDIMIXM
+# DPM - from jasmine V11.0.26.0.QDIMIXM
 product/bin/dpmd:system_ext/bin/dpmd|49caa8e7d8af8055efdd7ebc0d7f7d67bc600041
 product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc|f061bb76ae844f6df04c1d78caf00cf29a41b112
@@ -791,7 +791,7 @@ product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar|4696df9793ad676b305
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|a763bb1bbeecb84723bff6f547a3b23fab68dee3
 product/lib64/libdpmctmgr.so:system_ext/lib64/libdpmctmgr.so|3d4b87a4937caf3a8d276f48a4f0dc2cad246c5b
 product/lib64/libdpmfdmgr.so:system_ext/lib64/libdpmfdmgr.so|e809155312a05d83b323ab0be64cb393d936e52a
-product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so|dad2493b5d4f42078713066130b0703af449c82f
+product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so|2c864d6923f35e9467d3e5fa0b26d90378621b77
 product/lib64/libdpmtcm.so:system_ext/lib64/libdpmtcm.so|71a3d624602807f6fa6cbdb3a489efe9e93de634
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk:system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
 vendor/bin/dpmQmiMgr|d536096b310a2d3f30a683c1bdcad8658db1ba52
@@ -799,7 +799,7 @@ vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|fbff6357ee46dd6d62f490a942ff567b6ce955d1
 vendor/lib64/libdpmqmihal.so|30a170684219dd589d05ce5b446e73b7501f13e3
 
-# DRM - from jasmine V11.0.22.0.QDIMIXM
+# DRM - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/qseecomd|0c5e6d088e4d5600ce08915e7ef6ef28a99a2611
 vendor/lib/libQSEEComAPI.so|1c134972d1629e7ec8e854f0fa43e2886556dbd7
 vendor/lib/libsdedrm.so|b603b6beaa50d49604ab2ebe0977a9ef79252b20
@@ -849,16 +849,16 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ac7f5d1a9cfc04
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|b47f3d59c111a97a47ed38d4cb05ddf59a47ebac
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|69ae7b2e6ce22e23f70caa20c340e99510409b57
 
-# FM - from jasmine V11.0.22.0.QDIMIXM
+# FM - from jasmine V11.0.26.0.QDIMIXM
 lib64/fm_helium.so:system_ext/lib64/fm_helium.so|bc9f6314528630c060b593cef4a8cec786b22467
 lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so|589e9e290acfa18a49deba33606ed158d5e7f898
 product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|506efd87250697bdae271f86ea472785a77b84ef
 
-# GPS - from jasmine V11.0.22.0.QDIMIXM
+# GPS - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/loc_launcher|d0d1465a7f8eb24c50b3c616dccaf68b3dc7888a
 vendor/bin/lowi-server|6f11d0315e49aff2d8b24759bf7b2ca12659ac10
-vendor/bin/slim_daemon|2df56178e2baa924d776190999700af8a028fcda
+vendor/bin/slim_daemon|46c8844febb57ad741b38b26b26cadbb3b436cc9
 vendor/bin/xtra-daemon|ebcb5645b3f1058f0775a145dc462dc27550919d
 -vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|afc3f78aa065770d41dee37a13d43b8bef05f681
@@ -887,7 +887,7 @@ vendor/lib64/vendor.qti.gnss@3.0.so|ff1733d10abd97fa4381c798ae74b4cc5dac39e8
 vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae
 vendor/lib64/hw/gatekeeper.sdm660.so|e8f32651e4bfff88fcc02c34eca6cd5f04a444aa
 
-# Graphics - from jasmine V11.0.22.0.QDIMIXM
+# Graphics - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/egl/eglSubDriverAndroid.so|6414deefe8f8454dfd8dfb33006b94789d124dab
 vendor/lib/egl/libEGL_adreno.so|f1a3fbf43ca5978ddaf99ed771b36b091ac0e7c9
 vendor/lib/egl/libGLESv1_CM_adreno.so|e897f460e00982ad9e34672e07110a9ca8edab17
@@ -927,11 +927,11 @@ vendor/lib64/librs_adreno.so|c84431c31efd21b30d95ebe9ea3dc4792f0de4ac
 vendor/lib64/librs_adreno_sha1.so|06535b728885e2bf161b1cca48e8e5928925310a
 vendor/lib64/libRSDriver_adreno.so|d6d85a5af4f82e3a64bda4929ab4ed8bde6b7a3d
 
-# Graphics (HDR) - from jasmine V11.0.22.0.QDIMIXM
+# Graphics (HDR) - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/libhdr_tm.so|8d253c28c1fd976ac009088e36d483c16566f9a5
 vendor/lib64/libhdr_tm.so|1e74de5b505c8f742f1fb0379725ec9f5fd53282
 
-# Graphics (SDM) - from jasmine V11.0.22.0.QDIMIXM
+# Graphics (SDM) - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/libqseed3.so|f1c5c5e2db7cf1bf1cd6782af3476ec721c525e7
 vendor/lib/libsdm-color.so|2856bf71af603076b23d4c206dacba7c82350387
 vendor/lib/libsdm-diag.so|b1813c5639553537ccda31b2e44b5d4a85eb2adc
@@ -944,7 +944,7 @@ vendor/lib64/libsdm-disp-vndapis.so|ba4978c373f9892d884d07c4cf25dba9d73fda1f
 vendor/lib64/libsdmextension.so|264c00a0920d291700b2948b9337037684986921
 vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 
-# Graphics (Vulkan) - from jasmine V11.0.22.0.QDIMIXM
+# Graphics (Vulkan) - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
 
@@ -958,10 +958,10 @@ vendor/firmware/a530_pfp.fw|c19e1905c15622d7bb02409e6748959bceda9b08
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
-# IRQ balance - from jasmine V11.0.22.0.QDIMIXM
+# IRQ balance - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
 
-# Keymaster - from jasmine V11.0.22.0.QDIMIXM
+# Keymaster - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/libkeymasterdeviceutils.so|bc2aac023d99ec9e423d2f769019d187c99a8afb
 vendor/lib/libkeymasterprovision.so|ae6bbb9fec083307336b6191194d5c48b5dfd3a5
 vendor/lib/libkeymasterutils.so|599755dde51af5289f1f2776651bb2f93eb8507e
@@ -973,7 +973,7 @@ vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
 vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
 vendor/lib64/hw/keystore.sdm660.so|ffd01591bd8a864cb2dbc6fd2c01fbd36ae54051
 
-# Listen - from jasmine V11.0.22.0.QDIMIXM
+# Listen - from jasmine V11.0.26.0.QDIMIXM
 vendor/lib/hw/sound_trigger.primary.sdm660.so|8bae35ddf095f33543413bec940f538a7fada63b
 vendor/lib/libadpcmdec.so|6e9be864a1380e099a2d68237e13a724f3143314
 vendor/lib/libgcs-calwrapper.so|a7ee01ad02f69c182b9f28cb1c10b105ec8d607f
@@ -982,10 +982,10 @@ vendor/lib/libgcs-osal.so|dfae7d1bb15b7bd19fef7427f0a6f6df28d5d30a
 vendor/lib/libgcs.so|91e2a7e52bbc076eb3761586bcaf623160612a79
 vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
 
-# Media - from jasmine V11.0.22.0.QDIMIXM
+# Media - from jasmine V11.0.26.0.QDIMIXM
 lib/libFileMux.so|79661e6dffc90234ad446641264fd0fa1a3fe6ab
 lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
-lib/libmmparser_lite.so|2b67f6fcd32a98fe9c8b66af2c8ece8de20e3866
+lib/libmmparser_lite.so|f4c24fd214acfb32ebbdd1e8ff361c886237f490
 lib/libOmxMux.so|1ad1aa835a3dfb8bfea2a29291f82a173ba6a868
 lib64/libmmosal.so|9ceff2581e86d32bc2795dffb96ebe4bdc88f2f7
 vendor/lib/libAlacSwDec.so|bca4278cb74a63772a0fc369480b5d9814063d9b
@@ -1024,12 +1024,12 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|0c4bb0c8ba1cbf357bb0b5117e93db
 vendor/lib/libqti-perfd-client.so|08b0cd20dbc79645ee73ea4fdc5221d41d09588a
 vendor/lib64/libqti-perfd-client.so|cd3def30b6d444430ea8cea8956623d9d165eb7a
 
-# Peripheral manager - from jasmine V11.0.22.0.QDIMIXM
+# Peripheral manager - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
 vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
 vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
 
-# Postprocessing - from jasmine V11.0.22.0.QDIMIXM
+# Postprocessing - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/hw/vendor.display.color@1.0-service|b091c0d0f898959afedf8a3f83b5e97205fdfbc8
 vendor/bin/mm-pp-dpps|87650deb0e6df4afae33020b23af0d1cf33ec51c
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
@@ -1038,7 +1038,7 @@ vendor/lib64/vendor.display.color@1.0.so|3939e4d1ab4f74e6bbd04524a9e6211ade9c5d0
 vendor/lib64/vendor.display.color@1.1.so|ce0030a7e6593236277962ffff290b834eaf1f25
 vendor/lib64/vendor.display.postproc@1.0.so|0b578a42706c770c6c61eccdee8a9e4c89c08b10
 
-# QMI - from jasmine V11.0.22.0.QDIMIXM
+# QMI - from jasmine V11.0.26.0.QDIMIXM
 etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 product/lib64/libdiag_system.so:system_ext/lib64/libdiag_system.so|588e842c56dfba4c978d2ef864a567d9cc0051da
 vendor/bin/irsc_util|4381ded94ac2775cf186c97c7ad6236eaa209eac
@@ -1072,7 +1072,7 @@ vendor/lib64/libqmi_csi.so|4bae09fa2ce8335528f171abed518853eb2208c4
 vendor/lib64/libqmi_encdec.so|5e536057be350651379b772aa1bba5f4735d11ee
 vendor/lib64/libqmiservices.so|0c2930a50082aa9e9d341bd4286971e9143fd358
 
-# Radio - from jasmine V11.0.22.0.QDIMIXM
+# Radio - from jasmine V11.0.26.0.QDIMIXM
 -product/app/datastatusnotification/datastatusnotification.apk:system_ext/app/datastatusnotification/datastatusnotification.apk|272156d88ac5a05f76fcea7f1a31087e1acbcd85
 -product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|db60b6fe27b3033f6468b3170b23af18dd0bcdaf
 product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
@@ -1108,10 +1108,10 @@ vendor/lib64/libnlnetmgr.so|c5bbb11161b7673e02a0b2b9cec06565c8c46372
 vendor/lib64/libpdmapper.so|913532702507b64ef3384c68c958a29b89ebcef2
 vendor/lib64/libpdnotifier.so|41b80e0e26a2bdd324af8382b3384289c7b07c79
 vendor/lib64/libqcmaputils.so|eacd5bec984bae24bda1f041975357b2d72edfc2
-vendor/lib64/libqcrilFramework.so|3ea985b5e2d77aa5629429e6a535c485236e5b01
+vendor/lib64/libqcrilFramework.so|c38c004fb958c52f5269cc689e29d45d3283079b
 vendor/lib64/libqrtr.so|9addbb504885bb2a82e0b19e38077742bc48c10f
 vendor/lib64/libqsocket.so|dd4067d7a79565f11034277d4ef46698cd17c19b
-vendor/lib64/libril-qc-hal-qmi.so|4179bc3e9eab1194b186fff08287a14b65543c1e
+vendor/lib64/libril-qc-hal-qmi.so|9ae51f645cd96d3c53bea221edd4eea90a1fcdab
 vendor/lib64/libril-qc-ltedirectdisc.so|1bb5daeb65a48eb5dbac5db7f1fe8975fcb6be28
 vendor/lib64/libril-qc-radioconfig.so|c37def8f254404839a413918e94c4aab4d6de137
 vendor/lib64/libril-qcril-hook-oem.so|bc216efecb94b352b1d9be890bbcf5fc29e2f830
@@ -1119,8 +1119,8 @@ vendor/lib64/librilqmiservices.so|716b1b545d8446c6e66e03291bf42fe60683ba1a
 vendor/lib64/libsettings.so|1be7d1d33e562ff1b2db672d394100c0aa747b19
 vendor/lib64/libsystem_health_mon.so|a329ee0593f1811528a2d6fa9661160cbd1cc405
 vendor/lib64/qcrild_librilutils.so|314a90af94477d973109f0162a0a0d0d38ae1226
-vendor/lib64/qtibus.so|0d9c3b08a7350ee8db01abb625c032feaac4d2c1
-vendor/lib64/qtimutex.so|06f87b3bfd6459e72800f35dad4359e94f23edfb
+vendor/lib64/qtibus.so|f1140e740a5dfc865c8af859b62488bb81774c70
+vendor/lib64/qtimutex.so|763f5f40fc9190b0ae8b03bc631b07c278778edb
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|437d740fd549753fe6cc1db97e6e45b2f75d4076
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|092576b954a499b590c10a4f8dcc2c281bc32798
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|0ed46db784c55564219ac2097753df6c5b37bd2f
@@ -1146,10 +1146,10 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863ed
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|0622cde777945432d8fc46c248c17031808729ba
 vendor/radio/qcril_database/upgrade/8_version_mi.sql|760367d2b12a6b957092383017ddb030a4b1f251
 
-# Radio - from jasmine V11.0.22.0.QDIMIXM - modified
+# Radio - from jasmine V11.0.26.0.QDIMIXM - modified
 vendor/etc/init/netmgrd.rc|213d147cfcfe175aa4cdf1a345f3b148ea72982d
 
-# Radio - IMS - from jasmine V11.0.22.0.QDIMIXM
+# Radio - IMS - from jasmine V11.0.26.0.QDIMIXM
 -product/app/imssettings/imssettings.apk:system_ext/app/imssettings/imssettings.apk|a1cc6f2e1ab37fb24dadad5d3b45c425e72c1e4a
 -product/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk|a4f64644c7c7f4340745df98d9da5e3243134b21
 product/lib64/lib-imscamera.so:system_ext/lib64/lib-imscamera.so|8611f22989e922c9bf5e55ab40b5e5021bc3f92b
@@ -1219,7 +1219,7 @@ vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 # Soter - from jason V12.0.1.0.PCHCNXM
 -app/SoterService/SoterService.apk|c6c6063f83588db6c572779624458a4d1f094213
 
-# Soter - from jasmine V11.0.22.0.QDIMIXM
+# Soter - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|4f7e3c8a6cde9efefd8b9bf440fb1ed442e21fd3
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|9cf774301dfb59173cc2a6871ff851ea6b546f39
@@ -1236,26 +1236,26 @@ vendor/lib64/libthermalioctl.so|fbbd487d7f5e72558607d371f6eb327a7687f644
 -vendor/lib/libthermalclient.so|4579096edb376b06827f8e90a49480cf121030f0
 -vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
 
-# Time services - from jasmine V11.0.22.0.QDIMIXM
+# Time services - from jasmine V11.0.26.0.QDIMIXM
 -vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
 vendor/bin/time_daemon|d647fa02dfb28b6cb981c4e77daee75a67406351
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|c8e0bbc9c6b7b5beddba43bc4125a9eaeba7c79f
 
-# TUI - from jasmine V11.0.22.0.QDIMIXM
+# TUI - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc4479497fa666640612f06fbb4
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b4b412a672
 
-# Widevine - from jasmine V11.0.22.0.QDIMIXM
+# Widevine - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
 vendor/lib64/libwvhidl.so|38677623330ec145a62afdef110c713c9492671c
 
-# Wifi - from jasmine V11.0.22.0.QDIMIXM
+# Wifi - from jasmine V11.0.26.0.QDIMIXM
 vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
 
-# WiFi Display - from jasmine V11.0.22.0.QDIMIXM
+# WiFi Display - from jasmine V11.0.26.0.QDIMIXM
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
 etc/wfdconfig.xml|d07f6b0441c0aa8913865100239490fa8687a020
